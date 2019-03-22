@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import ToDos from './components/ToDos';
+import Todos from './components/Todos';
 
 class App extends Component {
 
@@ -21,7 +21,7 @@ class App extends Component {
         id: 3,
         title: 'Learn Java',
         completed: false
-      },
+      }
     ]
   }
 
@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ToDos />
+        <Todos todos={this.state.todos} />
       </div>
     );
   }

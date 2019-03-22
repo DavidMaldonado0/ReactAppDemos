@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 
 
 
-class ToDos extends Component {
+class Todos extends Component {
   render() {
-    return (
-      <div className="App">
-        <h1>ToDos</h1>
-      </div>
-    );
+    return this.props.todos.map((todo) => (
+      <h3>{ todo.title }</h3>
+    ));
   }
 }
 
-export default ToDos;
+export default Todos;
