@@ -20,7 +20,7 @@ class App extends Component {
       {
         id: 3,
         title: 'Learn Java',
-        completed: false
+        completed: true
       }
     ]
   }
