@@ -7,6 +7,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background: #1D4350;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 a {
@@ -15,18 +19,18 @@ a {
 }
 
 .container{
-  padding: 0 1rem;
+  padding-top: 2em;
 }
 
 .btn {
   display: inline-block;
   border: none;
-  background: #555;
+  background: #1D4350;
   color: #fff;
   padding: 7px 20px;
   cursor: pointer; 
 }
 
 .btn:hover{
-  background: #666;
+  background:#A43931;
 }

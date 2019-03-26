@@ -20,8 +20,8 @@ class AddTodo extends Component {
                 <input 
                     type="text" 
                     name="title" 
-                    style={{ flex: '10', padding: '5px'}}
-                    placeholder="Add ToDo..."
+                    style={{ flex: '10', padding: '10px'}}
+                    placeholder="Add Todo..."
                     value={this.state.title}
                     onChange={this.onChange}
                 />
